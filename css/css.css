@@ -1,0 +1,45 @@
+.search_home{
+    display: block;
+    margin: 5% auto;
+    border-radius: 50px;
+}
+
+.title{
+    display: block;
+    text-align: center;
+}
+.tabs{
+    display: block;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    text-align: center
+}
+.home_tab{
+    display: inline;
+    width: 31%;
+    height: 29px;
+    margin-left: 1%;
+    background: none;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.home_search_result{
+    display: block;
+    border: solid 1px black;
+}
+.ul_result{
+    display: block;
+    margin: 5%;
+    padding: 0;
+}
+
+.result_items_container{
+    height: 72%;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    top: 23%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
