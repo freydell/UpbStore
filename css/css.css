@@ -1,3 +1,15 @@
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.section{
+    z-index: 1;
+    height: 100%;
+    overflow: hidden;
+}
 .search_home{
     display: block;
     margin: 5% auto;
@@ -24,22 +36,116 @@
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
 }
-.home_search_result{
-    display: block;
-    border: solid 1px black;
-}
-.ul_result{
-    display: block;
-    margin: 5%;
-    padding: 0;
-}
-
-.result_items_container{
-    height: 72%;
-    width: 90%;
-    left: 5%;
+.contentHomeproductos{
+    height: 75%;
+    width: 100%;
     position: absolute;
     top: 23%;
+    left: 0%;
     overflow: scroll;
     overflow-x: hidden;
+}
+.contentHomeTiendas{
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    top: 23%;
+    left: 0%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+div.producContent{
+    height: 50%;
+    margin: 2% 5%;
+
+}
+.contraste{
+    /*background-color: rgba(48, 47, 47, 0.50);*/
+    position: absolute;
+    height: 45%;
+    margin-top: -71%;
+    width: 90%;
+}
+.imgProd{
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+.nombreProd{
+    position: absolute;
+    left: 60%;
+    top: 34%;
+}
+.descripcionProd{
+    position: absolute;
+    left: 60%;
+    top: 46%;
+    border: none;
+    height: 28%;
+}
+.precioProd{
+    position: absolute;
+    left: 60%;
+    top: 76%;
+}
+
+.studentShopsContainer{
+    overflow: hidden;
+    width: 95%;
+    height: 25%;
+    padding-left: 12%;
+    padding-top: 7%;
+}
+.resultImgContainer{
+    height: 100%;
+    border-radius: 66%;
+    width: 22%;
+}
+.searchProfileName{
+    position: relative;
+    bottom: 100%;
+    left: 30%;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: rgb(78, 40, 4);
+    word-wrap: break-word; 
+}
+.searchUserPos{
+    word-wrap: break-word;
+    display: block;
+    position: relative;
+    bottom: 105%;
+    left: 31%;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Montserrat;
+    color: rgb(78, 40, 4);
+}
+.searchUserHorario{
+    word-wrap: break-word;
+    display: block;
+    position: relative;
+    bottom: 105%;
+    left: 31%;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Montserrat;
+    color: rgb(78, 40, 4);
+}
+.searchUserTel{
+    word-wrap: break-word;
+    display: block;
+    position: relative;
+    bottom: 105%;
+    left: 31%;
+    font-size: medium;
+    font-weight: 200;
+    font-family: Montserrat;
+    color: rgb(78, 40, 4);
+}
+.resultProfile{
+    height: 80%;
+    width: 100%;
+    border-radius: 66%;
 }

@@ -45,7 +45,7 @@ Tienda.prototype.buscarTienda = function (store){
  * @param  store tienda a ser comparada
  */
 Tienda.prototype.equals = function (store) {
-	if (this.id === store.id || this.pwd === store.pwd)
+	if (this.id === store.id && this.pwd === store.pwd)
 		return true;
 	return false;
 }

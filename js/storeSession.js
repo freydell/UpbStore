@@ -36,13 +36,16 @@ Session.prototype.login = function (id, pw) {
  * @return true cuando sea exitoso
  */
 Session.prototype.addStore = function (store) {
-	if (null == store)
+	if (null == store){
 		return false;
-	for (var i = 0; i < this.stores.length; i++)
-		if (this.stores[i].equals(store))
+	}else{
+		for (var i = 0; i < this.stores.length; i++)
+		if (this.stores[i].equals(store)){
 			return false;
+		}
 	this.stores.push(store);
 	return true;
+	}
 }
 
 /**
